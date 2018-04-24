@@ -9,7 +9,7 @@ BEGIN
   SEM_APIS.CREATE_RDFVIEW_MODEL(
     MODEL_NAME => 'rdfview',
     TABLES => NULL,
-    R2RML_TABLE_OWNER => 'cosmic',
+    R2RML_TABLE_OWNER => 'r2ruser',
     R2RML_TABLE_NAME => 'r2rml'
   );
 END;
